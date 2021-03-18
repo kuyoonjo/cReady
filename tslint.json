@@ -2,5 +2,9 @@
   "extends": [
     "tslint:latest",
     "tslint-config-prettier"
-  ]
+  ],
+  "rules": {
+    "class-name": false,
+    "variable-name": false
+  }
 }
